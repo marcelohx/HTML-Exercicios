@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../JavaScript/funcoes.js"></script>
+    <title>Exercicio 6</title>
+</head>
+<body>
+    <form>
+        <label>Primeiro nota: </label>
+        <input type="number" name="nota1" id="nota1"><br>
+        <label>Segundo nota: </label>
+        <input type="number" name="nota2" id="nota2"><br>
+        <label>Terceiro nota: </label>
+        <input type="number" name="nota3" id="nota3"><br>
+        <label>Peso da primeira prova: </label>
+        <input type="number" name="peso1" id="peso1"><br>
+        <label>Peso da segunda nota: </label>
+        <input type="number" name="peso2" id="peso2"><br>
+        <label>Peso da terceira nota: </label>
+        <input type="number" name="peso3" id="peso3"><br>
+    </form>
+    <button type="submit" onclick="mediaPonderada()">Calcular</button><br><!--submit = envia o dado e atualiza a pagina-->
+    <textarea id="resultado" rows="15" cols="40" readonly></textarea><!--rows = linha, cols = colunas e textarea = area que ir mostrar textos-->
+</body>
+</html>
