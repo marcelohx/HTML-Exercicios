@@ -4,15 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
     <script type="text/javascript" src="../JavaScript/funcoes.js"></script>
     <title>Exercicio 10</title>
 </head>
 <body>
+    <header>
+        <h1 class="titulo">Sequencia de Fibonacci</h1>
+    </header>
+    <section id="historia">
+        <aside>
+            <p>
+                Faça um programa que gere a sequecia de<br><!--Pular linha--> 
+                Fibonacci ate um numero N fornecido pelo usuario<br> 
+            </p><!--Paragrafo-->
+        </aside><!--Aside para texto-->
+    </section><!--Seção/pedaço de uma pagina-->
     <form>
         <label>Digite quantos termos da sequencia voce deseja: </label>
         <input type="number" name="num" id="num"><br>
     </form>
     <button type="submit" onclick="Fibonacci()">Calcular</button><br><!--submit = envia o dado e atualiza a pagina-->
     <textarea id="resultado" rows="15" cols="40" readonly></textarea><!--rows = linha, cols = colunas e textarea = area que ir mostrar textos-->
+    <footer>
+        <a class ="botoesMenu" href="index.html"><li id="paginaInical">Página Inicial</li></a>
+    </footer>
 </body>
 </html>

@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
     <script type="text/javascript" src="../JavaScript/funcoes.js"></script>
     <title>Exercicio 6</title>
 </head>
 <body>
+    <header>
+        <h1 class="titulo">Calculo de media ponderada</h1>
+    </header>
+    <section id="historia">
+        <aside>
+            <p>
+                Faça um programa que recebe as notas de<br><!--Pular linha--> 
+                tres provas e clacula a media ponderada, com diferentes pesos <br> 
+                para cada nota. Em seguida, exiba a media final<br>
+            </p><!--Paragrafo-->
+        </aside><!--Aside para texto-->
+    </section><!--Seção/pedaço de uma pagina-->
     <form>
         <label>Primeiro nota: </label>
         <input type="number" name="nota1" id="nota1"><br>
@@ -24,5 +37,8 @@
     </form>
     <button type="submit" onclick="mediaPonderada()">Calcular</button><br><!--submit = envia o dado e atualiza a pagina-->
     <textarea id="resultado" rows="15" cols="40" readonly></textarea><!--rows = linha, cols = colunas e textarea = area que ir mostrar textos-->
+    <footer>
+        <a class ="botoesMenu" href="index.html"><li id="paginaInical">Página Inicial</li></a>
+    </footer>
 </body>
 </html>

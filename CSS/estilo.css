@@ -22,3 +22,12 @@ li:hover{ /*Hover é um elemento de modificação -> modifica o conteudo origina
     font-family: 'Trebuchet MS'; /*Definir uma fonte*/
     border: 10px solid #888
 }
+
+p{
+    text-align: center;/*Alinhamento do texto*/
+}
+
+h1{
+    text-align: center;/*Alinhamento do texto*/
+}
+

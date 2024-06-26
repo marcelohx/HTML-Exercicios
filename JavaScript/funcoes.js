@@ -152,16 +152,23 @@ function fatorial(){
 function Fibonacci(){
     var num;
     var res; 
-    var anterior;
-    var atual;
+    var fib1;
+    var fib2;
+    var fib3;
     //Coletar os dados do formulario
     num = parseInt(document.getElementById("num").value);
     //realizando a operação
-    for(i=0;i=num;i++){
-        anterior = atual;
-        atual = res;
-        res = anterior + atual;
-    }
+    res = "0 1";
+        fib1 = 0;
+        fib2 = 1;
+        fib3 = 0;
+    for (i = 1; i <= num - 2; i++)
+    {
+        fib3 = fib1 + fib2;
+        res += " " + fib3;
+        fib1 = fib2;
+        fib2 = fib3;
+    }//fim do for
     document.getElementById("resultado").innerHTML = res;//inserir usar o innerHTML
 }
 function mediaNotas(){
@@ -176,4 +183,22 @@ function mediaNotas(){
     //realizando a operação
     res = nota / contador;
     document.getElementById("resultado").innerHTML = res;//inserir usar o innerHTML
+}
+function Numeros(){
+    var num1;
+    var num2;
+    var num3;
+    var num4;
+    var num5;
+    var troca;
+    num1 = parseInt(document.getElementById("num1").value);
+    num2 = parseInt(document.getElementById("num2").value);
+    num3 = parseInt(document.getElementById("num3").value);
+    num4 = parseInt(document.getElementById("num4").value);
+    num5 = parseInt(document.getElementById("num5").value);
+    //trocando o primeiro pelo ultimo
+    troca = num1;
+    num1 = num5;
+    num5 = troca;
+    
 }

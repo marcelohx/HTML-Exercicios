@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
     <script type="text/javascript" src="../JavaScript/funcoes.js"></script>
     <title>Exercicio 12</title>
 </head>
 <body>
+    <header>
+        <h1 class="titulo">Verificação de ano bissexto</h1>
+    </header>
+    <section id="historia">
+        <aside>
+            <p>
+                Faça um programa que verifica se<br><!--Pular linha--> 
+                um ano bissexto de acordo com a regra<br> 
+                (divisivel por 4, exceto anos divisiveis por 100,a  menos<br>
+                que sejam divisiveis por 400) e exibe uma mensagem apropriada<br>
+            </p><!--Paragrafo-->
+        </aside><!--Aside para texto-->
+    </section><!--Seção/pedaço de uma pagina-->
     <form>
         <label>Insira as notas: </label>
         <input type="number" name="nota" id="nota"><br>
@@ -15,5 +29,8 @@
     <button type="submit" onclick=" ">Adicionar</button><br><!--submit = envia o dado e atualiza a pagina-->
     <button type="submit" onclick="mediaNotas()">Calcular</button><br><!--submit = envia o dado e atualiza a pagina-->
     <textarea id="resultado" rows="15" cols="40" readonly></textarea><!--rows = linha, cols = colunas e textarea = area que ir mostrar textos-->
+    <footer>
+        <a class ="botoesMenu" href="index.html"><li id="paginaInical">Página Inicial</li></a>
+    </footer>
 </body>
 </html>

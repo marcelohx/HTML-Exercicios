@@ -4,15 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
     <script type="text/javascript" src="../JavaScript/funcoes.js"></script>
     <title>Exercicio 3</title>
 </head>
 <body>
+    <header>
+        <h1 class="titulo">Verificação de numero positivo/negativo</h1>
+    </header>
+    <section id="historia">
+        <aside>
+            <p>
+                Escreva um programa verifica se um numero<br><!--Pular linha--> 
+                é positivo, negativo ou zero e exiba<br> 
+                uma mensagem equivalente.<br>
+            </p><!--Paragrafo-->
+        </aside><!--Aside para texto-->
+    </section><!--Seção/pedaço de uma pagina-->
     <form>
         <label>Digite o Número: </label>
         <input type="number" name="num1" id="num1"><br>
     </form>
     <button type="submit" onclick="verificar()">Calcular</button><br><!--submit = envia o dado e atualiza a pagina-->
     <textarea id="resultado" rows="15" cols="40" readonly></textarea><!--rows = linha, cols = colunas e textarea = area que ir mostrar textos-->
+    <footer>
+        <a class ="botoesMenu" href="index.html"><li id="paginaInical">Página Inicial</li></a>
+    </footer>
 </body>
 </html>

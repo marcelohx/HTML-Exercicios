@@ -4,15 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
     <script type="text/javascript" src="../JavaScript/funcoes.js"></script>
     <title>Exercicio 4</title>
 </head>
 <body>
+    <header>
+        <h1 class="titulo">Verificação de maioridade</h1>
+    </header>
+    <section id="historia">
+        <aside>
+            <p>
+                Desenvolva um programa que<br><!--Pular linha--> 
+                pede ao usuario sua idade e verifique<br> 
+                se ele é maior de idade (idade maior ou igual 18) ou<br>
+                menor de idade (idade menor 18).<br>
+            </p><!--Paragrafo-->
+        </aside><!--Aside para texto-->
+    </section><!--Seção/pedaço de uma pagina-->
     <form>
         <label>Digite sua idade: </label>
         <input type="number" name="idade" id="idade"><br>
     </form>
     <button type="submit" onclick="verificarIdade()">Calcular</button><br><!--submit = envia o dado e atualiza a pagina-->
     <textarea id="resultado" rows="15" cols="40" readonly></textarea><!--rows = linha, cols = colunas e textarea = area que ir mostrar textos-->
+    <footer>
+        <a class ="botoesMenu" href="index.html"><li id="paginaInical">Página Inicial</li></a>
+    </footer>
 </body>
 </html>

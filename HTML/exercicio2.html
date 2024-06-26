@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
     <script type="text/javascript" src="../JavaScript/funcoes.js"></script>
     <title>Exercicio 2</title>
 </head>
 <body>
+    <header>
+        <h1 class="titulo">Calculadora de IMC</h1>
+    </header>
+    <section id="historia">
+        <aside>
+            <p>
+                Crie um programa que recebe o peso e altura de<br><!--Pular linha--> 
+                uma pessoa e calcule o Indice de Massa Corporal(IMC),<br> 
+                exibindo a faixa de peso(abaixo do peso, peso normal, sobrepeso, obeso)<br>
+                com base no resultado.<br>
+            </p><!--Paragrafo-->
+        </aside><!--Aside para texto-->
+    </section><!--Seção/pedaço de uma pagina-->
     <form>
         <label>Informe o peso: </label>
         <input type="number" name="peso" id="peso"><br>
@@ -16,5 +30,8 @@
     </form>
     <button type="submit" onclick="IMC()">Calcular</button><br><!--submit = envia o dado e atualiza a pagina-->
     <textarea id="resultado" rows="15" cols="40" readonly></textarea><!--rows = linha, cols = colunas e textarea = area que ir mostrar textos-->
+    <footer>
+        <a class ="botoesMenu" href="index.html"><li id="paginaInical">Página Inicial</li></a>
+    </footer>
 </body>
 </html>
